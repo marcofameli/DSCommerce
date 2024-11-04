@@ -20,6 +20,7 @@ public class Product {
 
     @Column(columnDefinition = "TEXT")
     private String description;
+
     private Double price;
     private String imgUrl;
 
@@ -60,12 +61,12 @@ public class Product {
         this.id = id;
     }
 
-    public String getImageUrl() {
+    public String getImgUrl() {
         return imgUrl;
     }
 
-    public void setImageUrl(String imageUrl) {
-        this.imgUrl = imageUrl;
+    public void setimgUrl(String imageUrl) {
+        this.imgUrl = imgUrl;
     }
 
     public String getName() {
